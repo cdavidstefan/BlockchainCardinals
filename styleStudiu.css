@@ -262,6 +262,8 @@ section#sectiunea3 {
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section#sectiunea4 {
@@ -317,7 +319,7 @@ h1 {
 
 .text-box-2 {
   text-align: justify;
-  background: rgb(0 0 0 / 70%);
+  background: rgb(0 0 0 / 60%);
   color: var(--on-primary);
   border-radius: 10px;
   padding: 30px;
@@ -327,7 +329,7 @@ h1 {
 .text-box {
   width: 85%;
   text-align: justify;
-  background: rgb(0 0 0 / 70%);
+  background: rgb(0 0 0 / 60%);
   color: var(--on-primary);
   border-radius: 10px;
   padding: 30px;
@@ -337,6 +339,14 @@ h1 {
 p {
   margin: 0;
   line-height: 25px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Media Query */
